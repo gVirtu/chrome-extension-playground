@@ -2,7 +2,7 @@
   "name": "Test Stuff",
   "version": "0.1",
   "description": "Learning to build extensions.",
-  "permissions": ["storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
