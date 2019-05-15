@@ -3,6 +3,7 @@
   "version": "0.1",
   "description": "Learning to build extensions.",
   "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
